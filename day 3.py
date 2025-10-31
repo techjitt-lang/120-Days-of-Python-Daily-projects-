@@ -6,7 +6,7 @@ print('Press 2 For Substraction')
 print('Press 3 For Multiplication')
 print('Press 4 For Division')
 ask = int(input('Choose the Option: '))
-if ask < 0 or ask > 4:
+if ask < 1 or ask > 4:
     print('Invalid Choice')
 else:
     Num = str(input('Enter Your 1st Number: '))
@@ -24,3 +24,4 @@ else:
             print('Denominator can not be 0')
         else:
             print('Division Of Number 1 and 2 is : ',(float(Num/Numb)))
+
